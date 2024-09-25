@@ -9,9 +9,9 @@ spring.shardingsphere.datasource.names=m1
 
 spring.shardingsphere.datasource.m1.type=com.zaxxer.hikari.HikariDataSource
 spring.shardingsphere.datasource.m1.driver-class-name=com.mysql.cj.jdbc.Driver
-spring.shardingsphere.datasource.m1.jdbc-url=jdbc:mysql://rm-2zenegn5xmw0id30j.mysql.rds.aliyuncs.com:3306/callcenter
-spring.shardingsphere.datasource.m1.username=test_yyxn_rw
-spring.shardingsphere.datasource.m1.password=jFzi2UV7DBQqEhdeTSNC19Gy
+spring.shardingsphere.datasource.m1.jdbc-url= xxx
+spring.shardingsphere.datasource.m1.username= xxx
+spring.shardingsphere.datasource.m1.password= xxx
 
 
 spring.shardingsphere.sharding.tables.t_order.key-generator.column=order_id
