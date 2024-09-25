@@ -7,11 +7,11 @@ dataSources:
     # JDBC驱动类名
     driverClassName: com.mysql.cj.jdbc.Driver
     # 数据库连接URL，包括数据库地址、端口、数据库名以及连接参数
-    url: jdbc:mysql://rm-2zenegn5xmw0id30j.mysql.rds.aliyuncs.com:3306/tmk_crm
+    url: xxxx
     # 数据库登录用户名
-    username: test_yyxn_rw
+    username: xxxx
     # 数据库登录密码
-    password: jFzi2UV7DBQqEhdeTSNC19Gy
+    password: xxx
 
 # 分片规则配置
 rules:
