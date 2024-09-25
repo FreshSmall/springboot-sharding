@@ -18,7 +18,7 @@ import java.util.Date;
 @TableName("t_order")
 public class OrderEntity {
 
-    @TableId(value = "order_id")
+    @TableId(value = "order_id", type = IdType.AUTO)
     private Long orderId;
     private Long userId;
     private BigDecimal totalPrice;
