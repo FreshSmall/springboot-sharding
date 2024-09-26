@@ -56,7 +56,7 @@ class SpringbootShardingApplicationTests {
 
     @Test
     void searchTask() {
-        final String sceneId = "5d97";
+        final String sceneId = "ffc4";
         final LambdaQueryWrapper<CommonTaskEntity> queryWrapper = new LambdaQueryWrapper<>();
         queryWrapper.eq(CommonTaskEntity::getSceneId, sceneId);
         final List<CommonTaskEntity> entityList = commonTaskMapper.selectList(queryWrapper);
