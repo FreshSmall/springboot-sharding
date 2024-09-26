@@ -1,4 +1,4 @@
-sharding.yaml
+application.properties
 .mvn/
 mvnw
 mvnw.cmd
